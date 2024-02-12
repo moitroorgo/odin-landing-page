@@ -158,3 +158,16 @@ a {
   font-size: 18px;
   width: 135px;
 }
+
+.footer {
+  align-items: center;
+  background-color: #1F2937;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding: 32px;
+}
+
+.footer-copyright {
+  color: #E5E7EB;
+}
