@@ -100,3 +100,25 @@ a {
   margin-bottom: 10px;
   width: 145px;
 }
+
+.quote {
+  align-items: center;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.quote-main {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  width: 830px;
+}
+
+.quote-author {
+  text-align: right;
+  width: 750px;
+  font-weight: bold;
+}
