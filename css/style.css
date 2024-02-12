@@ -67,3 +67,36 @@ a {
   padding: 8px 16px;
   width: 135px;
 }
+
+.random-info {
+  text-align: center;
+}
+
+.random-info-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 48px;
+}
+
+.random-info-container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.random-info-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
+
+.random-info-illustration {
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  height: 145px;
+  margin-bottom: 10px;
+  width: 145px;
+}
