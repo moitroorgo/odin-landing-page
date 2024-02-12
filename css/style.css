@@ -25,7 +25,9 @@ a {
 }
 
 .hero {
-  background-color: #1F2937;
+  background-image: url("../img/tim-van-kempen-mpYKQK3GzSE-unsplash.jpg");
+  background-position: right 35% bottom 45%;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   padding: 120px 160px;
@@ -37,7 +39,9 @@ a {
 
 .hero-placeholder {
   align-items: center;
-  background-color: grey;
+  background-image: url("../img/photo-1706188370039-e0cf9bd6ea16.jpg");
+  background-position: right 35% bottom 45%;
+  background-size: cover;
   border: 2px solid grey;
   color: #E5E7EB;
   display: flex;
@@ -70,11 +74,15 @@ a {
 }
 
 .random-info {
+  background-image: url("../img/kalle-kortelainen-cenlDgUeuW8-unsplash.jpg");
+  background-position: right 35% bottom 45%;
+  background-size: cover;
   text-align: center;
+  padding: 48px;
 }
 
 .random-info-text {
-  color: #1F2937;
+  color: #F9FAF8;
   font-size: 36px;
   font-weight: 900;
   padding: 48px;
@@ -84,7 +92,6 @@ a {
   display: flex;
   gap: 52px;
   justify-content: center;
-  margin-bottom: 48px;
 }
 
 .random-info-content {
@@ -94,17 +101,46 @@ a {
   max-width: 150px;
 }
 
-.random-info-illustration {
-  border: 2px solid #3882F6;
+.random-info-illustration-1,
+.random-info-illustration-2,
+.random-info-illustration-3,
+.random-info-illustration-4 {
+  border: 4px solid #F9FAF8;
   border-radius: 10px;
   height: 145px;
   margin-bottom: 10px;
   width: 145px;
 }
 
+.random-info-illustration-1 {
+  background-image: url("../img/photo-1569832856136-5f42d6a3ed67.jpg");
+  background-size: cover;
+}
+
+.random-info-illustration-2 {
+  background-image: url("../img/pavl-polo-f--o8E38osQ-unsplash.jpg");
+  background-size: cover;
+}
+
+.random-info-illustration-3 {
+  background-image: url("../img/mount-everest-89590_1280.jpg");
+  background-size: cover;
+}
+
+.random-info-illustration-4 {
+  background-image: url("../img/daniel-price-mCGZPYjfROM-unsplash.jpg");
+  background-size: cover;
+}
+
+.random-info-subtext {
+  color: #F9FAF8;
+  font-weight: 700;
+}
+
 .quote {
   align-items: center;
-  background-color: #E5E7EB;
+  background-image: url("../img/andreas-gabler-XEW_Wd4240c-unsplash.jpg");
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   padding: 100px;
@@ -125,6 +161,9 @@ a {
 }
 
 .sign-up {
+  background-image: url("../img/kalle-kortelainen-cenlDgUeuW8-unsplash.jpg");
+  background-position: right 35% bottom 45%;
+  background-size: cover;
   display: flex;
   justify-content: center;
   padding: 100px;
