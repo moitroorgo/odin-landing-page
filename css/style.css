@@ -7,6 +7,7 @@ body {
   align-items: center;
   background-color: #1F2937;
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
   justify-content: flex-start;
   padding: 8px 160px;
@@ -20,34 +21,22 @@ body {
 
 a {
   color: #E5E7EB;
-  text-decoration: none;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .hero {
-  background-image: url("../img/tim-van-kempen-mpYKQK3GzSE-unsplash.jpg");
-  background-position: right 35% bottom 45%;
+  background-image: url("../img/andreas-gabler-XEW_Wd4240c-unsplash.jpg");
+  background-position: cover;
   background-size: cover;
   display: flex;
+  gap: 24px;
   justify-content: space-between;
   padding: 120px 160px;
 }
 
 .hero-main {
   width: 450px;
-}
-
-.hero-placeholder {
-  align-items: center;
-  background-image: url("../img/photo-1706188370039-e0cf9bd6ea16.jpg");
-  background-position: right 35% bottom 45%;
-  background-size: cover;
-  border: 2px solid grey;
-  color: #E5E7EB;
-  display: flex;
-  height: 240px;
-  justify-content: center;
-  width: 750px;
 }
 
 .hero-text {
@@ -73,12 +62,25 @@ a {
   width: 135px;
 }
 
+.hero-placeholder {
+  align-items: center;
+  background-image: url("../img/tim-van-kempen-mpYKQK3GzSE-unsplash.jpg");
+  background-position: right 35% bottom 45%;
+  background-size: cover;
+  border: 2px solid grey;
+  color: #E5E7EB;
+  display: flex;
+  height: 240px;
+  justify-content: center;
+  width: 750px;
+}
+
 .random-info {
   background-image: url("../img/kalle-kortelainen-cenlDgUeuW8-unsplash.jpg");
   background-position: right 35% bottom 45%;
   background-size: cover;
-  text-align: center;
   padding: 48px;
+  text-align: center;
 }
 
 .random-info-text {
@@ -90,6 +92,7 @@ a {
 
 .random-info-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 52px;
   justify-content: center;
 }
@@ -148,15 +151,15 @@ a {
 
 .quote-main {
   color: #1F2937;
+  flex: auto;
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
-  width: 830px;
 }
 
 .quote-author {
-  text-align: right;
-  width: 750px;
+  align-self: flex-end;
+  flex: auto;
   font-weight: bold;
 }
 
@@ -174,6 +177,7 @@ a {
   background-color: #3882F6;
   color: #F9FAF8;
   display: flex;
+  gap: 32px;
   justify-content: space-evenly;
   padding: 50px;
   width: 850px;
@@ -182,6 +186,7 @@ a {
 .sign-up-content {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 5px;
 }
 
